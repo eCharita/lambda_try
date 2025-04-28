@@ -1,4 +1,3 @@
-import boto3
 import os
 
 def lambda_handler(event, context):
@@ -15,6 +14,6 @@ def lambda_handler(event, context):
     if not item_id or not value:
         return {"statusCode": 400, "body": "Missing id or value"}
 
-    table.put_item(Item={'id': item_id, 'info': value})
+    #table.put_item(Item={'id': item_id, 'info': value})
 
     return {"statusCode": 200, "body": f"Item {item_id} updated"}
