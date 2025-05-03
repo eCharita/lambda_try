@@ -1,4 +1,4 @@
-name: Run Python Function Tests
+name: Run Python Function Tests 
 
 on:
   push:
