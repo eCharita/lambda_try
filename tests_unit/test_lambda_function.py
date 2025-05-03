@@ -1,5 +1,3 @@
-import lambda_function.lambda_function as lambda_function
-
 def test_valid_update():
     event = {'id': '123', 'value': 'TestValue'}
     context = {}
