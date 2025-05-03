@@ -2,7 +2,7 @@ name: Run Python Function Tests
 
 on:
   push:
-    branches: [main] # Spustí se při pushi na main
+    branches: ["**"] # Spustí se při pushi na main
   pull_request:
     branches: [main] # Spustí se při PR na main
   workflow_dispatch: # Umožňuje manuální spuštění
